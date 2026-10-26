@@ -1,0 +1,13 @@
+# Exclude large source Excel spreadsheets from Git repository
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
